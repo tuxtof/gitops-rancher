@@ -14,7 +14,7 @@ spec:
         app: deployment-default-web
     spec:
       containers:
-      - image: tuxtof/web-static
+      - image: tuxtof/web-flask
         name: web
 ---
 apiVersion: networking.k8s.io/v1beta1
